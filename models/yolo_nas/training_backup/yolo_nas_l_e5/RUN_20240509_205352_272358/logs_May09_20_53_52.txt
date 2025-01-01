@@ -1,0 +1,128 @@
+[2024-05-09 20:38:06] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2024-05-09 20:38:09] DEBUG - jax._src.path - etils.epath found. Using etils.epath for file I/O.
+[2024-05-09 20:38:19] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2024-05-09 20:38:19] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2024-05-09 20:38:19] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2024-05-09 20:38:19] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2024-05-09 20:38:19] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2024-05-09 20:38:22] INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+[2024-05-09 20:38:23] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2024-05-09 20:38:25] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2024-05-09 20:38:25] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:38:26] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:38:26] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: boto3 required but not found[0m
+[2024-05-09 20:38:26] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: deprecated required but not found[0m
+[2024-05-09 20:38:26] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: coverage required but not found[0m
+[2024-05-09 20:38:26] DEBUG - super_gradients.sanity_check.env_sanity_check - sphinx==5.0.2 does not satisfy requirement sphinx~=4.0.2
+[2024-05-09 20:38:26] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: sphinx-rtd-theme required but not found[0m
+[2024-05-09 20:38:26] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: torchmetrics required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: hydra-core required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: omegaconf required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnxruntime required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnx required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: pillow==9.4.0 does not satisfy requirement pillow>=10.2.0[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: einops required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: treelib required but not found[0m
+[2024-05-09 20:38:27] DEBUG - super_gradients.sanity_check.env_sanity_check - termcolor==2.4.0 does not satisfy requirement termcolor==1.1.0
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: stringcase required but not found[0m
+[2024-05-09 20:38:27] DEBUG - super_gradients.sanity_check.env_sanity_check - numpy==1.25.2 does not satisfy requirement numpy<=1.23
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: rapidfuzz required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: json-tricks required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnxsim required but not found[0m
+[2024-05-09 20:38:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: data-gradients required but not found[0m
+[2024-05-09 20:38:47] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:38:55] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 100 images are note associated to any label file
+[2024-05-09 20:38:55] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 1028/1128 images and 1028/1028 label files will be used.
+[2024-05-09 20:38:55] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-05-09 20:46:21] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:46:24] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-05-09 20:48:01] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:48:03] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 4 images are note associated to any label file
+[2024-05-09 20:48:03] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1 label files are not associated to any image.
+[2024-05-09 20:48:03] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 272/276 images and 272/273 label files will be used.
+[2024-05-09 20:48:03] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/humor-sans/Humor-Sans.ttf', name='Humor Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-05-09 20:50:05] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+[2024-05-09 20:50:34] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-05-09 20:50:35] WARNING - super_gradients.training.utils.checkpoint_utils - :warning: The pre-trained models provided by SuperGradients may have their own licenses or terms and conditions derived from the dataset used for pre-training.
+ It is your responsibility to determine whether you have permission to use the models for your use case.
+ The model you have requested was pre-trained on the coco dataset, published under the following terms: https://cocodataset.org/#termsofuse
+[2024-05-09 20:50:35] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2024-05-09 20:50:45] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_l
+[2024-05-09 20:50:45] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_L inherit HasPredict: True
+[2024-05-09 20:53:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20240509_205352_272358`
+[2024-05-09 20:53:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: /content/drive/MyDrive/yolo_nas/training_backup/yolo_nas_l_e5/RUN_20240509_205352_272358
+[2024-05-09 20:53:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2024-05-09 20:54:12] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               0          (0 available on the machine)
+    - Full dataset size:            1016       (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         127        (len(train_loader))
+    - Gradient updates per epoch:   127        (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_L  (66.92M parameters, 66.92M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (66.92M parameters). LR: 0.0005 (66.92M parameters) WD: 0.0, (84.73K parameters), WD: 0.0001, (66.83M parameters)
+
+[2024-05-09 20:54:12] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 5 epochs (0/4)
+
